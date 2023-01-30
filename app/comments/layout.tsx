@@ -1,6 +1,5 @@
-import { RecordWithTtl } from 'dns';
 import React from 'react';
-import TodosList from './TodosList'
+import CommentsList from './CommentsList'
 
 export default function RootLayout({
     children,
@@ -9,7 +8,7 @@ export default function RootLayout({
         <main className='flex'>
             <div>
                 {/*@ts-ignore */}
-                <TodosList />
+                <CommentsList />
             </div>
             <div className='flex-initial w-50'>
                 {children}
