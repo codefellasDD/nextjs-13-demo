@@ -40,7 +40,7 @@ async function TodoPage({ params: { todoId } }: PageProps) {
             UserId: {todo.userId}
           </div>
           <div className="text-slate-700 dark:text-slate-500">
-            {todo.completed?'Ja':'Nein'}
+            {todo.completed?'Fertig':'In Bearbeitung'}
           </div>
         </figcaption>
       </div>
